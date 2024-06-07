@@ -252,7 +252,11 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #ffffff;
+}
+
+.mobile-nav-toggle::before {
+  color: #ffffff;
 }
 
 .mobile-nav-active {
@@ -285,33 +289,33 @@ h6 {
   }
 }
 
-/* #hero:before {
+#hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(68, 6, 6, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
-} */
+}
 
 #hero h1 {
   margin: 0;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #45505b;
+  color: #f8f9fa;
 }
 
 #hero p {
-  color: #45505b;
+  color: #fcfcfc;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #e2ecf5;
   letter-spacing: 1px;
 }
 
@@ -322,7 +326,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #ffffff;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -401,6 +405,11 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: url("../img/hero-bg.jpg") top right no-repeat;
+
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
